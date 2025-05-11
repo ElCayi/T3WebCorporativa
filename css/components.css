@@ -32,7 +32,7 @@ main {
 
 header {
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 8rem;
 }
 
 /*COMPONENTES COMUNES */
@@ -99,22 +99,22 @@ header {
 /* 3- ESLOGAN Y SUBESLOGAN */
 .eslogan {
   font-family: var(--fuente-titulos);
-  font-size: 5.5rem;
+  font-size: 7rem;
   color: var(--color-acento);
   text-align: center;
   margin: 1rem auto 2rem;
-  max-width: 1500px;
+  max-width: 1800px;
 }
 
   
 
 .subeslogan {
   text-align: center;
-  font-size: 1.6rem;
+  font-size: 2.4rem;
   font-family: var(--fuente-base);
   color: var(--color-texto);
-  max-width: 1000px;
-  margin: 0 auto 2rem;
+  max-width: 1200px;
+  margin: 0 auto 3rem;
   opacity: 0.9;
   line-height: 1.6;
 }
@@ -124,7 +124,7 @@ header {
   display: flex;
   justify-content: center;
   gap: 3rem;
-  margin-top: 3rem;
+  margin-top: -1rem;
   flex-wrap: wrap;
 }
 
@@ -133,7 +133,7 @@ header {
   background-color: var(--color-acento);
   color: #000;
   padding: 1rem 2rem;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: bold;
   text-decoration: none;
   border-radius: 8px;
