@@ -8,6 +8,17 @@
   
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 /*TIPOGRAFÍA Y RESET */
 
 body, h1, h2, p, a {
@@ -61,8 +72,25 @@ header {
   pointer-events: none;
 }
 
+.logo-final {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.logo-final img {
+  height: 250px;
+  width: auto;
+  filter: drop-shadow(0 0 5px #00fff7b1);
+}
+
+
 /* 2- BARRA SUPERIOR */
 .barra-superior {
+  position: fixed;
+  top: 0;
+  right: 0 ;
+  left: 0;
   display: flex;
   background-color: #111;
   padding: 0.1rem;
@@ -96,7 +124,7 @@ header {
   opacity: 1;
 }
 
-/* 3- ESLOGAN Y SUBESLOGAN */
+/* 3- TÍTULOS Y SUBTÍTULOS*/
 .eslogan {
   font-family: var(--fuente-titulos);
   font-size: 7rem;
@@ -106,18 +134,32 @@ header {
   max-width: 1800px;
 }
 
-  
-
 .subeslogan {
   text-align: center;
   font-size: 2.4rem;
   font-family: var(--fuente-base);
   color: var(--color-texto);
   max-width: 1200px;
-  margin: 0 auto 3rem;
+  margin: 0 auto 2rem;
   opacity: 0.9;
   line-height: 1.6;
 }
+
+.titulo-secundario {
+  display: block;                 
+  width: 100%;                      
+  text-align: left !important;      
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--color-texto);
+  font-family: var(--fuente-titulos);
+  margin-top: 5rem;
+  border-left: 4px;
+  padding-left: 1rem;
+  color: #23fff8ed;
+}
+
+
 
 /* 4- BOTONES DE PACTO */
 .botones-pacto {
@@ -153,13 +195,14 @@ header {
 }
 
 .icono-boton {
-  height: 35px;
+  height: 45px;
   width: auto;
   margin-right: 0.5rem;
   vertical-align: middle;
 }
 
 /* 5- TEXTO DEMONIACO */
+
 .demon {
   background: linear-gradient(45deg, #00fff77c, #00fff790);
   -webkit-background-clip: text;
@@ -168,6 +211,22 @@ header {
   text-shadow: 0 0 8px #00fff789, 0 0 16px #00fff77e;
   animation: parpadeo 8s infinite;
 }
+
+/* 6- RECUADRO QUIENESSOMOS */
+
+.recuadro {
+  background-color: rgba(20, 20, 20, 0.85);
+  padding: 3rem;
+  margin: 2rem 0;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 255, 247, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.recuadro:hover {
+  transform: scale(1.01);
+}
+
 
 /*ANIMACIONES */
 

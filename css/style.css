@@ -5,20 +5,22 @@
 
 
 .quienes {
-    max-width: 900px;         
+    max-width: 1060px;         
     margin: 0 auto;           
     padding: 3rem 1rem;       
     text-align: justify;      
-    line-height: 1.8;         
-    font-size: 1.2rem;        
-    color: var(--color-texto);
-  }
+    line-height: 2;         
+    font-size: 1.8rem;        
+    color: var(--color-texto);  
+}
   
   .quienes h1,
-  .quienes h2,
-  .quienes h3 {
+  .quienes h2 {
     text-align: center;
-    margin-top: 2rem;
     margin-bottom: 1rem;
+  }
+  .quienes h3 {
+    text-align: left;
+    
   }
   

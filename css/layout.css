@@ -17,3 +17,6 @@ h1, h2, h3 {
   font-family: var(--fuente-titulos);
 }
 
+p {
+  line-height: 2;
+}
