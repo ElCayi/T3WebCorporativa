@@ -265,17 +265,7 @@ line-height: 2;
     transform: scale(1.1);
 }
 
-/* Responsive para móviles */
-@media (max-width: 768px) {
-  .paquete {
-    width: 100%;
-  }
 
-  .soluciones {
-    flex-direction: column;
-    align-items: center;
-  }
-}
 
 
 
