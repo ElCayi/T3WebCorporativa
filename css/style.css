@@ -148,3 +148,20 @@ max-width: 2400px;
 opacity: 0.25; 
 pointer-events: none;
 }
+
+/* 5- LLAMITA DE FONDO */
+
+.fondo-decorativo {
+  position: fixed;
+  bottom: 0;
+  left: 0%;
+  width: 900px;
+  height: auto;
+  transform: scale(1.2);
+  opacity: 0.25;
+  pointer-events: none;
+  z-index: -1;
+}
+
+
+
