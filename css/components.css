@@ -1,6 +1,7 @@
 /*VARIABLES GLOBALES */
 
 :root {
+  
 
   --color-texto: #eee;
   --fuente-titulos: 'Orbitron', sans-serif;
@@ -126,6 +127,7 @@ header {
 
 /* 3- TÍTULOS Y SUBTÍTULOS*/
 .eslogan {
+  z-index: 1;
   font-family: var(--fuente-titulos);
   font-size: 7rem;
   color: var(--color-acento);
@@ -135,6 +137,7 @@ header {
 }
 
 .subeslogan {
+  z-index: 1;
   text-align: center;
   font-size: 2.4rem;
   font-family: var(--fuente-base);
@@ -146,6 +149,7 @@ header {
 }
 
 .titulo-secundario {
+  z-index: 1;
   display: block;                 
   width: 100%;                      
   text-align: left !important;      

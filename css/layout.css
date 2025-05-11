@@ -15,6 +15,7 @@ header, footer {
 
 h1, h2, h3 {
   font-family: var(--fuente-titulos);
+  z-index: 0;
 }
 
 p {

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CayiCorp</title>
+
+<!-- Fuentes -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Orbitron:wght@600&display=swap" rel="stylesheet">
+
+<!-- CSS principal -->
+<link rel="stylesheet" href="css/style.css">
+
+<!-- Favicon -->
+<link rel="icon" href="img/favicon.png" type="image/png">
+
+</head>
+<body>
+    <img src="img/CirculoInvocación.png" alt="Círculo de invocación" class="fondo-circulo">
+    <img src="img/VelasV.png" alt="Vela izquierda" class="vela izquierda">
+    <img src="img/VelasVRevés.png" alt="Vela derecha" class="vela derecha">
+
+<div class="logo-fijo">
+    <a href="index.html">
+    <img src="img/infernaltech-logo.png" alt="InfernalTech logo">
+    </a>
+</div>
+</div>
+        
+<div class="barra-superior">
+    
+    <nav class="enlaces-barra">
+        <div class="espaciador-logo"></div>
+    <a href="QuienesSomos.html">Conócenos</a>
+    <span>|</span>
+    <a href="servicios.html">Servicios Arcanos</a>
+    <span>|</span>
+    <a href="contacto.html">Soporte Infernal</a>
+    <span>|</span>
+    <a href="localizacion.html">Localización</a>
+    <span>|</span>
+    <a href="publicaciones.html">Textos Proscritos</a>
+    <span>|</span>
+    <a href="noticias.html">Actualizaciones del Más Allá</a>
+    <span>|</span>
+    <a href="faq.html">FAQ</a>
+    <span>|</span></nav>
+    
+</div>
+
+<header>
+    
+</header>
+
+    <h1 class="eslogan"><span class="demon">Sella</span> el Pacto</h1>
+    <p class="subeslogan">Rellena el formulario para cedernos tu alma.</p>
+</header>
+
+<main>
+    
+    <form action="#" method="post">
+        <fieldset>
+        <legend>Datos personales</legend>
+
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos" name="apellidos" required>
+      
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+      
+        <label for="dni">DNI:</label>
+        <input type="text" id="dni" name="dni">
+      
+        <label for="nacido-en">Nacido/a en:</label>
+        <input type="text" id="nacido-en" name="nacido-en">
+      
+        <label for="provincia-nacimiento">Provincia:</label>
+            <select id="provincia" name="provincia-nacimiento">
+                <option value="">-- Selecciona una provincia --</option>
+                <option value="Álava">Álava</option>
+                <option value="Albacete">Albacete</option>
+                <option value="Alicante">Alicante</option>
+                <option value="Almería">Almería</option>
+                <option value="Asturias">Asturias</option>
+                <option value="Ávila">Ávila</option>
+                <option value="Badajoz">Badajoz</option>
+                <option value="Barcelona">Barcelona</option>
+                <option value="Burgos">Burgos</option>
+                <option value="Cáceres">Cáceres</option>
+                <option value="Cádiz">Cádiz</option>
+                <option value="Cantabria">Cantabria</option>
+                <option value="Castellón">Castellón</option>
+                <option value="Ciudad Real">Ciudad Real</option>
+                <option value="Córdoba">Córdoba</option>
+                <option value="Cuenca">Cuenca</option>
+                <option value="Girona">Girona</option>
+                <option value="Granada">Granada</option>
+                <option value="Guadalajara">Guadalajara</option>
+                <option value="Guipúzcoa">Guipúzcoa</option>
+                <option value="Huelva">Huelva</option>
+                <option value="Huesca">Huesca</option>
+                <option value="Illes Balears">Illes Balears</option>
+                <option value="Jaén">Jaén</option>
+                <option value="La Coruña">La Coruña</option>
+                <option value="La Rioja">La Rioja</option>
+                <option value="Las Palmas">Las Palmas</option>
+                <option value="León">León</option>
+                <option value="Lleida">Lleida</option>
+                <option value="Lugo">Lugo</option>
+                <option value="Madrid">Madrid</option>
+                <option value="Málaga">Málaga</option>
+                <option value="Murcia">Murcia</option>
+                <option value="Navarra">Navarra</option>
+                <option value="Ourense">Ourense</option>
+                <option value="Palencia">Palencia</option>
+                <option value="Pontevedra">Pontevedra</option>
+                <option value="Salamanca">Salamanca</option>
+                <option value="Santa Cruz de Tenerife">Santa Cruz de Tenerife</option>
+                <option value="Segovia">Segovia</option>
+                <option value="Sevilla">Sevilla</option>
+                <option value="Soria">Soria</option>
+                <option value="Tarragona">Tarragona</option>
+                <option value="Teruel">Teruel</option>
+                <option value="Toledo">Toledo</option>
+                <option value="Valencia">Valencia</option>
+                <option value="Valladolid">Valladolid</option>
+                <option value="Vizcaya">Vizcaya</option>
+                <option value="Zamora">Zamora</option>
+                <option value="Zaragoza">Zaragoza</option>
+                <option value="Ceuta">Ceuta</option>
+                <option value="Melilla">Melilla</option>
+            </select>
+        
+        </select>
+    
+    <label for="fecha-nacimiento">Fecha de nacimiento:</label>
+    <input type="date" id="fecha-nacimiento" name="fecha-nacimiento">
+    
+    <label for="domicilio">Domicilio (Calle, plaza y número):</label>
+    <input type="text" id="domicilio" name="domicilio">
+    
+    <label for="cp">Código Postal:</label>
+    <input type="text" id="cp" name="cp">
+    
+    <label for="localidad">Localidad:</label>
+    <input type="text" id="localidad" name="localidad">
+    
+    </select>
+    
+    <label for="telefono">Teléfono:</label>
+    <input type="tel" id="telefono" name="telefono">
+    </fieldset>
+    
+    <fieldset>
+    <legend>Requisitos de acceso</legend>
+    
+        <input type="radio" id="directo" name="acceso" value="directo">
+        <label for="directo">Directo</label><br>
+    
+        <input type="radio" id="logse" name="acceso" value="logse">
+        <label for="logse">Bachillerato LOGSE. Modalidad:</label>
+        <input type="text" name="modalidad"><br>
+    
+        <input type="radio" id="experimental" name="acceso" value="experimental">
+        <label for="experimental">Bachillerato experimental</label><br>
+    
+        <input type="radio" id="cou" name="acceso" value="cou">
+        <label for="cou">COU. Opción:</label>
+        <input type="text" name="opcion"><br>
+    
+        <input type="radio" id="fp2" name="acceso" value="fp2">
+        <label for="fp2">FP2</label><br>
+    
+        <input type="radio" id="otros" name="acceso" value="otros">
+        <label for="otros">Otros (especifique):</label>
+        <input type="text" name="otros-detalle"><br>
+    
+        <input type="radio" id="prueba" name="acceso" value="prueba">
+        <label for="prueba">Mediante prueba</label>
+    </fieldset>
+    
+    <fieldset>
+        <legend>Solicitud</legend>
+    
+        <label for="ciclo">Ciclo formativo:</label>
+        <select id="ciclo" name="ciclo">
+        <option>DAW</option>
+        <option>ASIR</option>
+        <option>DAM</option>
+        </select><br>
+    
+        <label>Ciclos formativos preferentes:</label><br>
+        <input type="text" placeholder="Ciclo 1"> 
+        <input type="text" placeholder="Centro 1"> 
+        <input type="text" placeholder="Localidad 1"><br>
+        <input type="text" placeholder="Ciclo 2"> 
+        <input type="text" placeholder="Centro 2"> 
+        <input type="text" placeholder="Localidad 2"><br>
+    
+        <label>Modalidad de horario especial:</label>
+        <input type="checkbox" name="horario-especial">
+    </fieldset>
+    
+    <fieldset>
+        <legend>Documentación presentada</legend>
+    
+        <input type="checkbox" id="dni-doc" name="documentos" value="dni">
+        <label for="dni-doc">Fotocopia DNI</label><br>
+    
+        <input type="checkbox" id="certificado" name="documentos" value="certificado">
+        <label for="certificado">Certificado académico</label><br>
+    
+        <input type="checkbox" id="otros-doc" name="documentos" value="otros">
+        <label for="otros-doc">Otros documentos (especifique):</label>
+        <input type="text" name="otros-doc-detalle">
+    </fieldset>
+    
+    <fieldset>
+        <legend>Comunicación</legend>
+        <p>Fecha de solicitud:</p>
+        <input type="number" min="1" max="31" placeholder="Día">
+        <input type="text" placeholder="Mes">
+        <input type="number" placeholder="Año" value="2025"><br><br>
+    
+        <label for="firma">Firma:</label><br>
+        <input type="text" id="firma" name="firma" placeholder="Tu nombre aquí">
+    </fieldset>
+    
+    <input type="submit" value="Enviar solicitud">
+    <input type="reset" value="Limpiar">
+    </form>
+    
+</main>
+
+<footer>
+<p>&copy; 2025 CayiCorp. Derechos eternos reservados.</p>
+
+</footer>
+</body>
+
+<img src="img/CirculoInvocación.png" alt="Círculo de invocación" class="fondo-circulo">
+
+</html>
