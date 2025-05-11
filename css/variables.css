@@ -1,0 +1,8 @@
+:root {
+  --color-bg: #000606;         /* fondo negro */
+  --color-acento: #ffffff;     /* turquesa claro y chillón */
+  --fuente-base: 'Montserrat', sans-serif;
+  --fuente-titulos: 'Orbitron', sans-serif;
+  --color-texto: #ffffff;
+}
+

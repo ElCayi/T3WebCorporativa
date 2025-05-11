@@ -1,0 +1,18 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Logs y errores
+*.log
+
+# Archivos de entorno
+.env
+
+# Dependencias y builds (por si usas frameworks en el futuro)
+node_modules/
+dist/
+build/
+
+# Archivos de respaldo
+*.bak
+*.tmp

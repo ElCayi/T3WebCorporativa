@@ -1,0 +1,19 @@
+body {
+  background-color: var(--color-bg);
+  color: var(--color-texto);
+  font-family: var(--fuente-base);
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  padding: 1em;
+  text-align: center;
+  padding-top: 10rem;
+  color
+}
+
+h1, h2, h3 {
+  font-family: var(--fuente-titulos);
+}
+
