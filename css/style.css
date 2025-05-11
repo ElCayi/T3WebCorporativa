@@ -25,7 +25,7 @@ text-align: left;
 
 }
 
-/* 4- FORMULARIOS */
+/*FORMULARIOS */
 
 form {
 position: relative;
@@ -34,11 +34,11 @@ background-color: #111;
 padding: 3rem;
 border-radius: 12px;
 box-shadow: 0 0 10px #00fff777;
-max-width: 900px;
+max-width: 700px;
 margin: 4rem auto;
 font-family: var(--fuente-base);
 color: var(--color-texto);
-font-size: 1.7rem;
+font-size: 1.3rem;
 }
 
 fieldset {
@@ -51,7 +51,7 @@ background-color: #1a1a1a;
 
 legend {
 padding: 0 1rem;
-font-size: 1.7rem;
+font-size: 1.3rem;
 font-weight: bold;
 font-family: var(--fuente-titulos);
 color: var(--color-acento);
@@ -61,7 +61,7 @@ label {
 display: block;
 margin-top: 1rem;
 font-weight: 600;
-font-size: 1.7rem;
+font-size: 1.3rem;
 }
 
 input[type="text"],
@@ -110,6 +110,20 @@ input::placeholder {
 color: #aaa;
 }
 
+.acceso-opcion {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.acceso-opcion input[type="text"] {
+  flex: 1;
+  min-width: 200px;
+}
+
+
 /*VELAS y CIRCULO: FONDO SELLARPACTO*/
 .vela {
 position: fixed;
@@ -122,46 +136,147 @@ pointer-events: none;
 
 .vela.izquierda {
 position: fixed;
-left: 20%;
-z-index: -1;
+left: 05%;
+z-index: -2;
 heig ht: 250px;
 pointer-events: none;
 }
 
 .vela.derecha {
 position: fixed;
-z-index: -1;
+z-index: -2;
 hei ght: 250px;
-right: 20%;
+right: 05%;
 pointer-events: none;
 
 }
 
-.fondo-circulo {
-z-index: -2;
+/*.fondo-circulo {
+z-index: -1;
 position: fixed;
-top: 55%;
+top: 60%;
 left: 51.5%;
 transform: translate(-50%, -50%); 
 width: 80vw; /
-max-width: 2400px;
-opacity: 0.25; 
+max-width: 2600px;
+opacity: 0.15; 
 pointer-events: none;
 }
 
-/* 5- LLAMITA DE FONDO */
+/*LLAMITA DE FONDO */
 
 .fondo-decorativo {
-  position: fixed;
-  bottom: 0;
-  left: 0%;
-  width: 900px;
-  height: auto;
-  transform: scale(1.2);
-  opacity: 0.25;
-  pointer-events: none;
-  z-index: -1;
+position: fixed;
+bottom: 0;
+left: 0%;
+width: 900px;
+height: auto;
+transform: scale(1.2);
+opacity: 0.25;
+pointer-events: none;
+z-index: -1;
 }
+
+/*Recuadrod Paquete */
+
+:root {
+  --color-turquesa: #00f0ff;
+}
+
+.soluciones {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 2rem;
+padding: 2rem;
+}
+
+.paquete {
+background-color: #0a0a0a;
+border: 1px solid var(--color-turquesa);
+border-radius: 16px;
+padding: 2.5rem;
+width: 360px;
+min-height: 800px; /* ALARGADO */
+color: #fff;
+font-family: 'Montserrat', sans-serif;
+display: flex;
+flex-direction: column;
+gap: 5rem; 
+box-shadow: 0 0 20px rgba(0, 240, 255, 0.2);
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.paquete:hover {
+transform: scale(1.03);
+box-shadow: 0 0 25px rgba(0, 240, 255, 0.4);
+}
+
+.paquete h2 {
+font-family: 'Orbitron', sans-serif;
+color: var(--color-turquesa);
+font-size: 2.3rem;    
+text-align: center;
+}
+
+.paquete p {
+color: #bbb;
+font-size: 1.8rem;
+margin-top: -40px;
+text-align: center;
+}
+
+.paquete ul {
+list-style: none;
+margin-bottom: 1.9rem;
+font-size: 1.6rem;
+margin-bottom: 1rem;
+gap: 1rem;
+line-height: 2;
+}
+
+.paquete ul li::before {
+  content: "✓ ";
+  color: var(--color-turquesa);
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.paquete button {
+  background-color: var(--color-turquesa);
+  color: #000;
+  border: none;
+  padding: 1rem 1.2rem;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-top: auto;
+  margin-bottom: 2rem;
+  
+}
+
+.paquete button:hover {
+  background-color: #00c0cc;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0, 240, 255, 0.5);
+    transform: scale(1.1);
+}
+
+/* Responsive para móviles */
+@media (max-width: 768px) {
+  .paquete {
+    width: 100%;
+  }
+
+  .soluciones {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 
 
 

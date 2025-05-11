@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CayiCorp</title>
+<title>InfernalTech</title>
 
 <!-- Fuentes -->
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Orbitron:wght@600&display=swap" rel="stylesheet">
@@ -15,8 +15,9 @@
 <link rel="icon" href="img/favicon.png" type="image/png">
 
 </head>
+
 <body>
-    <img src="img/CirculoInvocación.png" alt="Círculo de invocación" class="fondo-circulo">
+    
     <img src="img/VelasV.png" alt="Vela izquierda" class="vela izquierda">
     <img src="img/VelasVRevés.png" alt="Vela derecha" class="vela derecha">
 
@@ -28,24 +29,19 @@
 </div>
         
 <div class="barra-superior">
-    
     <nav class="enlaces-barra">
-        <div class="espaciador-logo"></div>
-    <a href="QuienesSomos.html">Conócenos</a>
-    <span>|</span>
-    <a href="servicios.html">Servicios Arcanos</a>
-    <span>|</span>
-    <a href="contacto.html">Soporte Infernal</a>
-    <span>|</span>
-    <a href="localizacion.html">Localización</a>
-    <span>|</span>
-    <a href="publicaciones.html">Textos Proscritos</a>
-    <span>|</span>
-    <a href="noticias.html">Actualizaciones del Más Allá</a>
-    <span>|</span>
-    <a href="faq.html">FAQ</a>
-    <span>|</span></nav>
-    
+        
+        <a href="QuienesSomos.html">Conócenos</a>
+        <span>|</span>
+        <a href="NuestrasSoluciones.html">Nuestras Soluciones</a>
+        <span>|</span>
+        <a href="localizacion.html">Localización</a>
+        <span>|</span>
+        <a href="publicaciones.html">Textos Proscritos</a>
+        <span>|</span>
+        <a href="faq.html">FAQ</a>
+        <span>|</span>
+    </nav>
 </div>
 
 <header>
@@ -58,10 +54,12 @@
 
 <main>
     
-    <form action="#" method="post">
-        <fieldset>
-        <legend>Datos personales</legend>
+    <form action="https://formsubmit.co/InfernalTech@ejemplo.com" method="POST">
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_next" value="https://InfernalTech.com/gracias.html">
 
+    <fieldset>
+        <legend>Datos personales(*)</legend>
         <label for="apellidos">Apellidos:</label>
         <input type="text" id="apellidos" name="apellidos" required>
       
@@ -145,91 +143,130 @@
     <label for="localidad">Localidad:</label>
     <input type="text" id="localidad" name="localidad">
     
-    </select>
-    
     <label for="telefono">Teléfono:</label>
     <input type="tel" id="telefono" name="telefono">
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    </select>
+
     </fieldset>
+    
+    
+<fieldset>
+  <legend>Motivos para Deshacerse de su Alma</legend>
+  <p>Elija con sinceridad la razón que le impulsa a renunciar a su alma. Su destino eterno depende de esta decisión.</p>
+
+  <div class="acceso-opcion">
+    <input type="radio" id="agotamiento" name="acceso" value="agotamiento">
+    <label for="agotamiento">Agotamiento existencial prolongado</label>
+  </div>
+
+  <div class="acceso-opcion">
+    <input type="radio" id="ambicion" name="acceso" value="ambicion">
+    <label for="ambicion">Ambición desmedida. Desea más poder</label>
+  </div>
+
+  <div class="acceso-opcion">
+    <input type="radio" id="venganza" name="acceso" value="venganza">
+    <label for="venganza">Anhelo de venganza irreversible</label>
+  </div>
+
+  <div class="acceso-opcion">
+    <input type="radio" id="curiosidad" name="acceso" value="curiosidad">
+    <label for="curiosidad">Curiosidad mórbida e incontrolable</label>
+  </div>
+
+  <div class="acceso-opcion">
+    <input type="radio" id="desesperacion" name="acceso" value="desesperacion">
+    <label for="desesperacion">Desesperación existencial profunda</label>
+  </div>
+
+  <div class="acceso-opcion">
+    <input type="radio" id="trato" name="acceso" value="trato">
+    <label for="trato">Ha firmado previamente un trato y no lo recuerda</label>
+  </div>
+
+  <div class="acceso-opcion">
+    <input type="radio" id="otros" name="acceso" value="otros">
+    <label for="otros">Otros motivos (especifique):</label>
+    <input type="text" name="otros-detalle">
+  </div>
+</fieldset>
+
+
     
     <fieldset>
-    <legend>Requisitos de acceso</legend>
-    
-        <input type="radio" id="directo" name="acceso" value="directo">
-        <label for="directo">Directo</label><br>
-    
-        <input type="radio" id="logse" name="acceso" value="logse">
-        <label for="logse">Bachillerato LOGSE. Modalidad:</label>
-        <input type="text" name="modalidad"><br>
-    
-        <input type="radio" id="experimental" name="acceso" value="experimental">
-        <label for="experimental">Bachillerato experimental</label><br>
-    
-        <input type="radio" id="cou" name="acceso" value="cou">
-        <label for="cou">COU. Opción:</label>
-        <input type="text" name="opcion"><br>
-    
-        <input type="radio" id="fp2" name="acceso" value="fp2">
-        <label for="fp2">FP2</label><br>
-    
-        <input type="radio" id="otros" name="acceso" value="otros">
-        <label for="otros">Otros (especifique):</label>
-        <input type="text" name="otros-detalle"><br>
-    
-        <input type="radio" id="prueba" name="acceso" value="prueba">
-        <label for="prueba">Mediante prueba</label>
-    </fieldset>
-    
-    <fieldset>
-        <legend>Solicitud</legend>
-    
-        <label for="ciclo">Ciclo formativo:</label>
-        <select id="ciclo" name="ciclo">
-        <option>DAW</option>
-        <option>ASIR</option>
-        <option>DAM</option>
-        </select><br>
-    
-        <label>Ciclos formativos preferentes:</label><br>
-        <input type="text" placeholder="Ciclo 1"> 
-        <input type="text" placeholder="Centro 1"> 
-        <input type="text" placeholder="Localidad 1"><br>
-        <input type="text" placeholder="Ciclo 2"> 
-        <input type="text" placeholder="Centro 2"> 
-        <input type="text" placeholder="Localidad 2"><br>
-    
-        <label>Modalidad de horario especial:</label>
-        <input type="checkbox" name="horario-especial">
-    </fieldset>
+  <legend>Nuestras Soluciones</legend>
+  <p>Elige el nivel de poder infernal que necesitas para alcanzar tus objetivos.</p>
+
+  <div class="acceso-opcion">
+    <input type="radio" id="tentacion" name="paquete" value="tentacion">
+    <label for="tentacion"><strong>Paquete Tentación</strong> — 1/4 alma<br>
+      • Éxito moderado en tus proyectos<br>
+      • Inspiración sobrenatural ocasional<br>
+      • Protección básica contra competidores<br>
+      • 1 deseo de negocio concedido<br>
+      • Soporte por invocación básica
+    </label>
+  </div>
+
+  <div class="acceso-opcion">
+    <input type="radio" id="purgatorio" name="paquete" value="purgatorio">
+    <label for="purgatorio"><strong>Paquete Purgatorio</strong> — 1/2 alma<br>
+      • Todo lo del paquete Tentación<br>
+      • Éxito garantizado en 3 proyectos grandes<br>
+      • Capacidad de persuasión aumentada<br>
+      • Lectura de mentes en negociaciones<br>
+      • 3 deseos de negocio concedidos<br>
+      • Soporte por invocación premium
+    </label>
+  </div>
+
+  <div class="acceso-opcion">
+    <input type="radio" id="condenacion" name="paquete" value="condenacion">
+    <label for="condenacion"><strong>Paquete Condenación</strong> — alma completa<br>
+      • Todo lo del paquete Purgatorio<br>
+      • Dominio absoluto en tu industria<br>
+      • Infalibilidad en decisiones de negocio<br>
+      • Deseos ilimitados (con restricciones)<br>
+      • Un demonio asistente personal<br>
+      • Soporte por invocación VIP<br>
+      • Extra: 10% de descuento en tu próxima vida
+    </label>
+  </div>
+
+  <p class="nota">
+    *Las condiciones pueden variar según la pureza de tu alma. Se aplican términos y condiciones infernales.
+  </p>
+</fieldset>
+
     
     <fieldset>
-        <legend>Documentación presentada</legend>
-    
-        <input type="checkbox" id="dni-doc" name="documentos" value="dni">
-        <label for="dni-doc">Fotocopia DNI</label><br>
-    
-        <input type="checkbox" id="certificado" name="documentos" value="certificado">
-        <label for="certificado">Certificado académico</label><br>
-    
-        <input type="checkbox" id="otros-doc" name="documentos" value="otros">
-        <label for="otros-doc">Otros documentos (especifique):</label>
-        <input type="text" name="otros-doc-detalle">
-    </fieldset>
-    
-    <fieldset>
-        <legend>Comunicación</legend>
-        <p>Fecha de solicitud:</p>
-        <input type="number" min="1" max="31" placeholder="Día">
-        <input type="text" placeholder="Mes">
-        <input type="number" placeholder="Año" value="2025"><br><br>
-    
-        <label for="firma">Firma:</label><br>
-        <input type="text" id="firma" name="firma" placeholder="Tu nombre aquí">
-    </fieldset>
+  <legend>Documentación presentada</legend>
+
+  <div class="acceso-opcion">
+    <input type="checkbox" id="dni-doc" name="documentos" value="dni">
+    <label for="dni-doc">Fotocopia DNI</label>
+  </div>
+
+  <div class="acceso-opcion">
+    <input type="checkbox" id="certificado" name="documentos" value="certificado">
+    <label for="certificado">Certificado académico</label>
+  </div>
+
+  <div class="acceso-opcion">
+    <input type="checkbox" id="otros-doc" name="documentos" value="otros">
+    <label for="otros-doc">Otros documentos (especifique):</label>
+    <input type="text" name="otros-doc-detalle">
+  </div>
+</fieldset>
     
     <input type="submit" value="Enviar solicitud">
     <input type="reset" value="Limpiar">
     </form>
     
+   
 </main>
 
 <footer>
@@ -238,6 +275,6 @@
 </footer>
 </body>
 
-<img src="img/CirculoInvocación.png" alt="Círculo de invocación" class="fondo-circulo">
+
 
 </html>
